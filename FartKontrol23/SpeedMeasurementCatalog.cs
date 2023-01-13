@@ -83,7 +83,7 @@ namespace FartKontrol23
             {
                 allSpeedMeasurements = allSpeedMeasurements +" \t" +  item.ToString() + "\n";
             }
-            return $"Address {Address } Zone {_zone} SpeedLimit {_speedLimit} \nFartregistreringer \n{allSpeedMeasurements}   ";
+            return $"Address {Address } Zone {_zone} SpeedLimit {_speedLimit} \nFartregistreringer \n{allSpeedMeasurements}";
         }
 
 

@@ -11,6 +11,8 @@ Console.WriteLine(h1);
 SpeedMeasurementCatalog speedCatalog = new SpeedMeasurementCatalog("Maglegårdsvej 2", "By", 50);
 speedCatalog.AddSpeedMeasurement(61);
 speedCatalog.AddSpeedMeasurement(75);
+
+//Udgangspunkt for sekvensdiagram
 speedCatalog.AddSpeedMeasurement(90);
 
 double average = speedCatalog.AvarageSpeed();
